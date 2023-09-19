@@ -1,0 +1,104 @@
+.container{
+        border-radius: 5px;
+        padding:20px;
+        width: 78%;
+        margin:auto;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    }
+    .sessions{
+        margin: 10px 0;
+        width: 80%;
+    }
+    .heading{
+        background-color: #40bfef;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding: 2px;
+        text-align: center;
+    }
+    .flexBox{
+        background-color: #b4dcff4a;
+        display: flex;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .formBox,.qr{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    button a {
+        text-decoration: none;
+        color: white;
+    }
+    .qr_img{
+        width: 50%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    .qr_code_img {
+        padding: 20px;
+        border: 2px solid;
+    }
+    .stap{
+        color:white;
+        text-transform: uppercase;
+    }
+    .form_container {
+        margin: 2px;
+        background-color: white;
+        padding: 40px;
+        width: 55%;
+    }
+
+    .form_container h2{
+        color: #40bfef;
+    }
+
+    input[type="text"], input[type="email"],input[type="tel"]{
+
+        width: 100%;
+        box-sizing: border-box;
+        margin: 15px 0px;
+        padding: 12px 20px;
+
+    }
+
+    button{
+        margin: 15px 0px;
+        padding: 14px;
+        font-size: 18px;
+        width: 100%;
+        background-color: #40bfef;
+        color: whitesmoke;
+        border: none;
+
+    }
+    @media only screen and (max-width: 768px) {
+        .flexBox{
+            padding:20px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .formBox, .qr {
+            width: 100%;
+            
+        }
+        button{
+            font-size: 15px;
+        }
+    }
