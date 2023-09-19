@@ -1,7 +1,7 @@
 
 <?php
  
-header("Location: https://www.geeksforgeeks.org");
+header("Location: ./QR&VCF_generate.php");
  
 exit;
 ?>
